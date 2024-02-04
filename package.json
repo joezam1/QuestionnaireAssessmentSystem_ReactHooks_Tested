@@ -1,0 +1,47 @@
+{
+	"name": "questionnairereact_v001_structure",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "webpack-dev-server --open --config webpack.config.js",
+		"build": "webpack NODE_ENV=production"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"chart.js": "^4.4.1",
+		"js-cookie": "^3.0.5",
+		"react": "^18.2.0",
+		"react-chartjs-2": "^5.2.0",
+		"react-dom": "^18.2.0",
+		"react-router": "^6.18.0",
+		"react-router-dom": "^6.16.0",
+		"uuid": "^9.0.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.23.2",
+		"@babel/preset-env": "^7.23.2",
+		"@babel/preset-react": "^7.22.15",
+		"babel-loader": "^9.1.3",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"clean-webpack-plugin": "^4.0.0",
+		"copy-webpack-plugin": "^11.0.0",
+		"css-loader": "^6.8.1",
+		"html-loader": "^4.2.0",
+		"html-webpack-plugin": "^5.5.3",
+		"node-polyfill-webpack-plugin": "^2.0.1",
+		"node-sass": "^9.0.0",
+		"path-browserify": "^1.0.1",
+		"prop-types": "^15.8.1",
+		"regenerator-runtime": "^0.14.0",
+		"sass": "^1.69.3",
+		"sass-loader": "^13.3.2",
+		"style-loader": "^3.3.3",
+		"webpack": "^5.89.0",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^4.15.1"
+	}
+}

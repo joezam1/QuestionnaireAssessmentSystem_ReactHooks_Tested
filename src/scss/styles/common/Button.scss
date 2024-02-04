@@ -1,0 +1,49 @@
+button{
+    cursor: pointer;
+}
+
+
+.btnCursor{
+    cursor: pointer;
+}
+
+.btnRedirect {
+    background-color: silver;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    padding: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* unvisited link */
+.btnRedirect:link {
+    background-color: #EAECEE;
+}
+
+/* visited link */
+.btnRedirect:visited {
+    background-color: #B2BABB;
+}
+
+/* mouse over link */
+.btnRedirect:hover {
+    background-color: #F2F3F4;
+    border: 1px solid grey;
+    color: black;
+}
+
+/* selected link */
+.btnRedirect:active {
+    color: #0000FF;
+}
+
+.btnFloatRight{
+    float: right;
+}
+
+.btnWidth20Percemt{
+    width: 20%;
+}

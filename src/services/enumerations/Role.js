@@ -1,0 +1,30 @@
+const role = Object.freeze({
+    Owner : 1,
+    SuperAdmin : 2,
+    Admin : 3,
+    Editor : 4,
+    Moderator : 5,
+    Advertiser : 6,
+    TechnicalAnalyst : 7,
+    CommercialAnalyst : 8,
+    BaseClient : 9,
+    SilverClient : 10,
+    GoldClient : 11,
+    DiamondClient : 12,
+    AnonymousUser : 13,
+    1:'Owner',
+    2:'SuperAdmin',
+    3:'Admin',
+    4:'Editor',
+    5:'Moderator',
+    6:'Advertiser',
+    7:'TechnicalAnalyst',
+    8:'CommercialAnalyst',
+    9:'BaseClient',
+    10:'SilverClient',
+    11:'GoldClient',
+    12:'DiamondClient',
+    13:'AnonymousUser'
+    });
+
+    module.exports = role;

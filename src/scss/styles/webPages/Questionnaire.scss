@@ -1,0 +1,32 @@
+.questionnaireBody{
+    border: 1px solid var(--base-color-deepBlue);
+    // max-height: 1000px;
+}
+
+.flex-directionRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.question-no-decoration{
+    list-style-type: none
+}
+
+.flex-questionDisplayColumnLeftAlign{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 40px;
+    text-align: left;
+}
+
+.flex-choiceDisplayColumnLeftAlign{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.messageWarning{
+    color: red;
+}
